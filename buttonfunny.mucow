@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Plugin: Button Funny - Adobe Muse Cc2014
+    Autor: Lenin Peña - @leninalbertop
+    Web: www.leninalbertop.com.ve
+-->
+<HTMLWidget name="Button Funny" formatNumber="2" localization="none" creator="Lenin Peña" isResizable="true" defaultWidth="93" defaultHeight="45" termsText="Gracias por usar Button Funny para Adobe Muse. Este Widget se ofrece de forma gratuita con licencia Creative Commons Atribución-No Comercial-Compartir Igual 4.0 Internacional (CC BY-NC-SA 4.0). Queda terminantemente prohibido el uso comercial del mismo. Si desea comunicarse conmigo por favor visite mi perfil en Twitter @leninalbertop.">
+<parameters>
+<text name="id" label="Nombre de ID" defaultValue="uno"/>
+<info label="Si va a utilizar botones con colores diferentes establezca un nombre de ID distinto por cada botón."/>
+<separator/>
+<text name="Color" label="Color del Botón" defaultValue="#79BD9A"/>
+<text name="hoverColor" label="Color Hover del Botón" defaultValue="#D35400"/>
+<info label="Si no quiere que el botón tenga efecto hover, borre este valor."/>
+<separator/>
+<text name="texto" label="Escriba un texto" defaultValue="Descargar"/>
+<text name="Colortexto" label="Color del texto" defaultValue="#ffffff"/>
+<list name="efectos" defaultValue="grow" label="Elija un Efecto">
+    <value name="grow" label="grow"/>
+    <value name="shrink" label="shrink"/>
+    <value name="pulse" label="pulse"/>
+    <value name="pulse-grow" label="pulse-grow"/>
+    <value name="pulse-shrink" label="pulse-shrink"/>
+    <value name="push" label="push"/>
+    <value name="pop" label="pop"/>
+    <value name="rotate" label="rotate"/>
+    <value name="grow-rotate" label="grow-rotate"/>
+    <value name="float" label="float"/>
+    <value name="sink" label="sink"/>
+    <value name="hover" label="hover"/>
+    <value name="hang" label="hang"/>
+    <value name="skew" label="skew"/>
+    <value name="skew-forward" label="skew-forward"/>
+    <value name="skew-backward" label="skew-backward"/>
+    <value name="wobble-vertical" label="wobble-vertical"/>
+    <value name="wobble-horizontal" label="wobble-horizontal"/>
+    <value name="wobble-to-bottom-right" label="wobble-to-bottom-right"/>
+    <value name="wobble-to-top-right" label="wobble-to-top-right"/>
+    <value name="wobble-top" label="wobble-top"/>
+    <value name="wobble-bottom" label="wobble-bottom"/>
+    <value name="wobble-skew" label="wobble-skew"/>
+    <value name="buzz" label="buzz"/>
+    <value name="buzz-out" label="buzz-out"/>
+    <value name="glow" label="glow"/>
+    <value name="float-shadow" label="float-shadow"/>
+    <value name="hover-shadow" label="hover-shadow"/>
+    <value name="shadow-radial" label="shadow-radial"/>
+    <value name="curl-top-left" label="curl-top-left"/>
+    <value name="curl-top-right" label="curl-top-right"/>
+    <value name="curl-bottom-right" label="curl-bottom-right"/>
+    <value name="curl-bottom-left" label="curl-bottom-left"/>
+</list>    
+<builtIn name="width"/>
+<builtIn name="height"/>
+</parameters>
+
+<headHTML>
+<![CDATA[
+<style>
+.button-{param_id} {
+    display: inline-block;
+    padding: 1em;
+    background-color: {param_Color};
+    color: {param_Colortexto};
+}
+.button-{param_id}:hover{
+	background-color: {param_hoverColor};
+}
+</style>
+]]>
+</headHTML>
+
+<pageItemHTML>
+<![CDATA[
+<p class="button-{param_id} {param_efectos}">{param_texto}</p>
+]]>
+</pageItemHTML>
+
+<bodyEndHTML>
+<![CDATA[
+
+]]>
+</bodyEndHTML>
+</HTMLWidget>
