@@ -1,7 +1,7 @@
 buttonfunny.
 ===========
 
-Button Funny es un Widget para Adobe Muse Cc2014, Un botón con una excelente colección de 35 animaciones CSS3, que podrá aplicar en sus diseños de Adobe muse. Esto es, solo el código fuente del Widget, por favor siga leyendo la nota.
+Button Funny es un Widget para Adobe Muse Cc2014, Un botón con una excelente colección de 33 animaciones CSS3, que podrá aplicar en sus diseños de Adobe muse. Esto es, solo el código fuente del Widget, por favor siga leyendo la nota.
 
 Demo, tutorial y descarga.
 -------------------------
