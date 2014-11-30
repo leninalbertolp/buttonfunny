@@ -5,7 +5,7 @@ Button Funny es un Widget para Adobe Muse Cc2014, Un botón con una excelente co
 
 Demo, tutorial y descarga.
 -------------------------
-[Demo](http://www.leninalbertop.com.ve/demo/buttonfunny/) | [Tutorial y Descarga](http://#)
+[Demo](http://bitly.com/1w6WfuQ) | [Tutorial y Descarga](http://bitly.com/1FGJhnq)
 
 Editar, mejorar o añadir más efectos al widget.
 -----------------------------------------------
